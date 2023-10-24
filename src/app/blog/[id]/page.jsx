@@ -9,6 +9,7 @@ async function getData(id) {
   });
 
   if (!res.ok) {
+    // not found page
     return notFound();
   }
 
